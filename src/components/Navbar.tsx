@@ -31,8 +31,13 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="text-xl font-heading font-bold text-gradient">
-          RK
+        <a href="#" className="group flex items-center gap-2">
+          <span className="relative flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-primary shadow-glow">
+            <span className="text-sm font-heading font-bold text-primary-foreground tracking-tight">RK</span>
+          </span>
+          <span className="text-sm font-heading font-semibold text-foreground hidden sm:inline">
+            Rishav<span className="text-gradient">.dev</span>
+          </span>
         </a>
 
         {/* Desktop */}
