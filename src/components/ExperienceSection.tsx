@@ -2,6 +2,13 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    role: "Frontend Developer",
+    company: "Tech Trendo Multipurpose Company",
+    location: "Nepal",
+    period: "2025 – Present",
+    description: "Building modern web applications using React.jsx/tsx with responsive frontend design, Django backend integration, RESTful API integration, and end-to-end feature development.",
+  },
+  {
     role: "Frontend Developer Intern",
     company: "CodeAlpha",
     location: "Pune, India",
@@ -20,14 +27,14 @@ const experiences = [
     company: "Dharan Municipality",
     location: "Nepal",
     period: "2023",
-    description: "Provided IT support for public-sector operations, assisted with system administration and digital record management.",
+    description: "Provided IT support for public-sector operations, assisted with customer service, networking infrastructure management, database design and administration.",
   },
   {
     role: "Networking & IT Specialist",
-    company: "Classic Tech ISP",
+    company: "Classic Tech Pvt. Ltd.",
     location: "Nepal",
     period: "2023",
-    description: "Handled networking operations, customer support, and infrastructure troubleshooting in a live ISP environment.",
+    description: "Handled networking operations, IT service management, ISP infrastructure, finance management, customer support, and infrastructure troubleshooting in a live ISP environment.",
   },
 ];
 
