@@ -11,7 +11,7 @@ const ContactSection = () => {
         <p className="text-primary font-mono text-sm mb-2">05. Contact</p>
         <h2 className="section-title">Get In Touch</h2>
         <p className="section-subtitle mb-12">
-          Have a project in mind or want to connect? Drop me a message.
+          Have a project in your mind or want to connect? Drop me a message.
         </p>
 
      

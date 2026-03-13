@@ -23,7 +23,7 @@ const experiences = [
     location: "Nepal",
     period: "2025",
     description:
-      "Handled networking operations, IT service management, ISP infrastructure, finance management, customer support, and infrastructure troubleshooting in a live ISP environment.",
+      "Handled Networking Operations, IT service management, ISP infrastructure, Finance Management, Customer Support, and Infrastructure troubleshooting in a live ISP environment.",
   },
   {
     role: "Networking & IT Internship",
