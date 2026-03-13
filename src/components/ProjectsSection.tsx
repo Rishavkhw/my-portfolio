@@ -16,7 +16,7 @@ const projects: Project[] = [
     icon: Car,
     description:
       "A web-based system that manages vehicle bluebook and insurance renewal requests with admin dashboard, request tracking, payment status management, and filtering/sorting features.",
-    tech: ["React", "TypeScript", "Tailwind CSS", "REST API"],
+    tech: ["React", "TypeScript", "Tailwind CSS", "REST-API"],
     highlights: [
       "Admin Dashboard",
       "Request Tracking",
@@ -43,7 +43,7 @@ const projects: Project[] = [
     title: "Sitaz-Mart",
     icon: ShoppingCart,
     description:
-      "An ecommerce frontend project built with modern UI design, responsive layout, product catalog, and shopping cart functionality.",
+      "An ecommerce frontend project built with Modern UI design, responsive layout, product catalog, and shopping cart functionality.",
     tech: ["React", "CSS3", "JavaScript", "Responsive Design"],
     highlights: [
       "Modern UI",

@@ -7,7 +7,7 @@ const experiences = [
     location: "Nepal",
     period: "2025 – Present",
     description:
-      "Building modern web applications using React.jsx/tsx with responsive frontend design, Django backend integration, RESTful API integration, Digital Marketing and Social Media Management.",
+      "Building modern web applications using React.jsx/tsx with responsive Frontend Design, Django backend integration, RESTful API integration, Digital Marketing and Social Media Management.",
   },
   {
     role: "IT Officer Internship",
@@ -39,7 +39,7 @@ const experiences = [
     location: "Pune, India",
     period: "2024",
     description:
-      "Worked on frontend web applications and UI implementation, building responsive interfaces with modern frameworks and collaborating with the development team.",
+      "Worked on Frontend Web Applications and UI implementation, building responsive interfaces with modern frameworks and collaborating with the development team.",
   },
 ];
 

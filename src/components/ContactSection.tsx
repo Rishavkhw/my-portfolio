@@ -21,14 +21,14 @@ const ContactSection = () => {
               <Mail className="text-primary mt-1" size={20} />
               <div>
                 <h4 className="font-heading font-semibold text-foreground">Email</h4>
-                <p className="text-muted-foreground text-sm">rishabkhatiwada300example.com</p>
+                <p className="text-muted-foreground text-sm">rishabkhatiwada300@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <MapPin className="text-primary mt-1" size={20} />
               <div>
                 <h4 className="font-heading font-semibold text-foreground">Location</h4>
-                <p className="text-muted-foreground text-sm">Dharan, Nepal</p>
+                <p className="text-muted-foreground text-sm">Dharan-16, Nepal</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
