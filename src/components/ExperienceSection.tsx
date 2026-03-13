@@ -2,39 +2,44 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Frontend Developer",
+    role: "Frontend Developer & Digital Marketing",
     company: "Tech Trendo Multipurpose Company",
     location: "Nepal",
     period: "2025 – Present",
-    description: "Building modern web applications using React.jsx/tsx with responsive frontend design, Django backend integration, RESTful API integration, and end-to-end feature development.",
+    description:
+      "Building modern web applications using React.jsx/tsx with responsive frontend design, Django backend integration, RESTful API integration, Digital Marketing and Social Media Management.",
   },
   {
-    role: "Frontend Developer Intern",
-    company: "CodeAlpha",
-    location: "Pune, India",
-    period: "2024",
-    description: "Worked on frontend web applications and UI implementation, building responsive interfaces with modern frameworks and collaborating with the development team.",
-  },
-  {
-    role: "IT Intern",
-    company: "WorldLink Communications Ltd.",
-    location: "Nepal",
-    period: "2024",
-    description: "Gained experience in networking operations, IT service management, and ISP infrastructure. Supported system maintenance and network troubleshooting.",
-  },
-  {
-    role: "IT Officer Intern",
+    role: "IT Officer Internship",
     company: "Dharan Municipality",
     location: "Nepal",
-    period: "2023",
-    description: "Provided IT support for public-sector operations, assisted with customer service, networking infrastructure management, database design and administration.",
+    period: "2025",
+    description:
+      "Provided IT support for public-sector operations, assisted with customer service, networking infrastructure management, database design and administration.",
   },
   {
     role: "Networking & IT Specialist",
     company: "Classic Tech Pvt. Ltd.",
     location: "Nepal",
-    period: "2023",
-    description: "Handled networking operations, IT service management, ISP infrastructure, finance management, customer support, and infrastructure troubleshooting in a live ISP environment.",
+    period: "2025",
+    description:
+      "Handled networking operations, IT service management, ISP infrastructure, finance management, customer support, and infrastructure troubleshooting in a live ISP environment.",
+  },
+  {
+    role: "Networking & IT Internship",
+    company: "WorldLink Communications Ltd.",
+    location: "Nepal",
+    period: "2025",
+    description:
+      "Gained experience in networking operations, IT service management, and ISP infrastructure. Supported system maintenance and network troubleshooting.",
+  },
+  {
+    role: "Frontend Developer Internship",
+    company: "CodeAlpha Tech",
+    location: "Pune, India",
+    period: "2024",
+    description:
+      "Worked on frontend web applications and UI implementation, building responsive interfaces with modern frameworks and collaborating with the development team.",
   },
 ];
 
@@ -63,12 +68,22 @@ const ExperienceSection = () => {
                 <div className="p-6 rounded-xl bg-card shadow-card border border-border hover:shadow-glow transition-shadow duration-300">
                   <div className="flex flex-wrap items-center gap-3 mb-2">
                     <Briefcase size={16} className="text-primary" />
-                    <span className="text-sm font-mono text-primary">{exp.period}</span>
-                    <span className="text-sm text-muted-foreground">· {exp.location}</span>
+                    <span className="text-sm font-mono text-primary">
+                      {exp.period}
+                    </span>
+                    <span className="text-sm text-muted-foreground">
+                      · {exp.location}
+                    </span>
                   </div>
-                  <h3 className="font-heading font-semibold text-lg text-foreground">{exp.role}</h3>
-                  <p className="text-primary font-medium text-sm mb-3">{exp.company}</p>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{exp.description}</p>
+                  <h3 className="font-heading font-semibold text-lg text-foreground">
+                    {exp.role}
+                  </h3>
+                  <p className="text-primary font-medium text-sm mb-3">
+                    {exp.company}
+                  </p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {exp.description}
+                  </p>
                 </div>
               </div>
             ))}

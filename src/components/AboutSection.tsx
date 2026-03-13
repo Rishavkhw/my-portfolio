@@ -3,7 +3,7 @@ import { GraduationCap, Briefcase, Code2, Wifi } from "lucide-react";
 const highlights = [
   { icon: Code2, label: "Frontend Dev", desc: "React, TypeScript, Modern UI" },
   { icon: Wifi, label: "Networking", desc: "ISP Ops, Infrastructure" },
-  { icon: Briefcase, label: "4+ Internships", desc: "Real-world experience" },
+  { icon: Briefcase, label: "4+ Internships & Jobs", desc: "Real-world experience" },
   { icon: GraduationCap, label: "BSc CSIT", desc: "Tribhuvan University" },
 ];
 
@@ -16,13 +16,29 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 mt-10">
           <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              I am a BSc CSIT student at Tribhuvan University with hands-on experience across ISP operations, public-sector IT, and frontend development. I've worked as a Networking & IT Specialist at Classic Tech ISP, IT Intern at WorldLink, IT Officer Intern at Dharan Municipality, and Frontend Intern at CodeAlpha.
+              Driven by a passion for IT and frontend development, my journey as
+              a BSc CSIT graduate from Tribhuvan University has been shaped by
+              hands-on learning and practical industry exposure. Through
+              professional roles and internships, I have gained experience
+              across networking operations, public-sector IT systems, fullstack
+              web development, web designing and digital marketing, developing a
+              well-rounded understanding of how technology supports real-world
+              organizations and services.
             </p>
             <p>
-              My core technical strength lies in frontend development, with strong proficiency in HTML, CSS, JavaScript, and React.js. I focus on building clean, responsive, and user-friendly interfaces and have working knowledge of the MERN stack, enabling effective collaboration across full-stack workflows.
+              My expertise lies in frontend development with strong skills in
+              React.js, JavaScript, and TypeScript, building scalable,
+              responsive, and user-friendly interfaces. I have hands-on
+              experience in API integration and working knowledge of Python and
+              Django, enabling seamless collaboration in modern full-stack web
+              applications.
             </p>
             <p>
-              I have participated in hackathons, Robothon competitions, and various technical activities, strengthening my problem-solving abilities and practical approach to real-world challenges.
+              Beyond academics and professional experience, I actively
+              participate in hackathons, Robothon competitions, and technical
+              activities, strengthening my problem-solving mindset, teamwork,
+              and practical approach to developing impactful technology
+              solutions.{" "}
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -33,7 +49,9 @@ const AboutSection = () => {
                 style={{ animationDelay: `${i * 0.1}s` }}
               >
                 <item.icon className="text-primary mb-3" size={24} />
-                <h3 className="font-heading font-semibold text-foreground mb-1">{item.label}</h3>
+                <h3 className="font-heading font-semibold text-foreground mb-1">
+                  {item.label}
+                </h3>
                 <p className="text-sm text-muted-foreground">{item.desc}</p>
               </div>
             ))}

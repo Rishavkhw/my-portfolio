@@ -1,19 +1,19 @@
 const skillCategories = [
   {
     title: "Frontend Development",
-    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Tailwind CSS", "Responsive Design", "UI/UX Principles"],
+    skills: ["HTML", "Tailwind CSS",  "JavaScript", "TypeScript", "React.js", "Responsive Design", "UI/UX Principles"],
   },
   {
-    title: "Backend & Full Stack",
-    skills: ["Node.js", "Express.js", "MongoDB", "RESTful APIs", "MERN Stack"],
+    title: "Backend & Mobile Development",
+    skills: [ "RESTful APIs integration", "Python", "Django", "Flutter Mobile App Development"],
   },
   {
     title: "Networking & IT",
-    skills: ["ISP Operations", "Network Infrastructure", "System Support", "Troubleshooting", "IT Service Management"],
+    skills: ["ISP Operations", "Network Infrastructure", "System Support", "Troubleshooting", "IT Service Management", "Finance Management"],
   },
   {
     title: "Tools & Platforms",
-    skills: ["Git & GitHub", "VS Code", "Figma", "Postman", "Linux"],
+    skills: ["Git & GitHub", "VS Code", "Figma", "Canva", "Wordpress", "Postman", "Linux", "Manual Testing",],
   },
 ];
 

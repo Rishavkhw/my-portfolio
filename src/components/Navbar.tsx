@@ -12,7 +12,7 @@ const navLinks = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
@@ -55,7 +55,7 @@ const Navbar = () => {
             onClick={() => setDark(!dark)}
             className="p-2 rounded-lg hover:bg-secondary transition-colors text-muted-foreground hover:text-foreground"
           >
-            {dark ? <Sun size={18} /> : <Moon size={18} />}
+            {dark ? <Moon size={18} /> : <Sun size={18} />}
           </button>
           <a
             href="#contact"
@@ -71,7 +71,7 @@ const Navbar = () => {
             onClick={() => setDark(!dark)}
             className="p-2 rounded-lg hover:bg-secondary transition-colors text-muted-foreground"
           >
-            {dark ? <Sun size={18} /> : <Moon size={18} />}
+            {dark ? <Moon size={18} /> : <Sun size={18} />}
           </button>
           <button onClick={() => setIsOpen(!isOpen)} className="text-foreground">
             {isOpen ? <X size={24} /> : <Menu size={24} />}

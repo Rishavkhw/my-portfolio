@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,40 +52,41 @@
     --shadow-glow: 0 0 30px hsl(172 66% 50% / 0.15);
   }
 
-  .dark {
-    --background: 195 53% 94%;
-    --foreground: 210 30% 15%;
+ .dark {
+  --background: 220 12% 12%;
+  --foreground: 0 0% 96%;
 
-    --card: 195 60% 97%;
-    --card-foreground: 210 30% 15%;
+  --card: 220 12% 16%;
+  --card-foreground: 0 0% 96%;
 
-    --popover: 195 60% 97%;
-    --popover-foreground: 210 30% 15%;
+  --popover: 220 12% 16%;
+  --popover-foreground: 0 0% 96%;
 
-    --primary: 199 89% 48%;
-    --primary-foreground: 0 0% 100%;
+  --primary: 172 66% 50%;
+  --primary-foreground: 0 0% 100%;
 
-    --secondary: 195 40% 88%;
-    --secondary-foreground: 210 30% 20%;
+  --secondary: 220 10% 20%;
+  --secondary-foreground: 0 0% 92%;
 
-    --muted: 195 35% 90%;
-    --muted-foreground: 210 15% 40%;
+  --muted: 220 10% 20%;
+  --muted-foreground: 220 8% 70%;
 
-    --accent: 172 66% 45%;
-    --accent-foreground: 0 0% 100%;
+  --accent: 172 66% 50%;
+  --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 100%;
 
-    --border: 195 30% 82%;
-    --input: 195 30% 85%;
-    --ring: 199 89% 48%;
+  --border: 220 10% 26%;
+  --input: 220 10% 24%;
+  --ring: 172 66% 50%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(199, 89%, 48%), hsl(172, 66%, 45%));
-    --gradient-card: linear-gradient(145deg, hsl(195, 60%, 98%), hsl(195, 53%, 93%));
-    --shadow-card: 0 4px 24px -4px hsl(210 30% 15% / 0.08);
-    --shadow-glow: 0 0 40px hsl(199 89% 48% / 0.15);
-  }
+  --gradient-primary: linear-gradient(135deg, hsl(172,66%,50%), hsl(199,89%,48%));
+  --gradient-card: linear-gradient(145deg, hsl(220,12%,18%), hsl(220,12%,14%));
+
+  --shadow-card: 0 4px 24px -4px hsl(0 0% 0% / 0.45);
+  --shadow-glow: 0 0 40px hsl(172 66% 50% / 0.25);
+}
 }
 
 @layer base {
